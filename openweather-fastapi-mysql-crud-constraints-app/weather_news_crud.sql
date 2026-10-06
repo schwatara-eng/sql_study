@@ -10,6 +10,8 @@ CREATE DATABASE IF NOT EXISTS weatherNewsDB
 
 USE weatherNewsDB;
 
+SHOW TABLES;
+
 CREATE TABLE IF NOT EXISTS weather_observation (
     weather_id BIGINT AUTO_INCREMENT PRIMARY KEY,
     city_code VARCHAR(20) NOT NULL,
